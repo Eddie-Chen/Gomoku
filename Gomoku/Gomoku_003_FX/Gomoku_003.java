@@ -24,10 +24,9 @@ public class Gomoku_003 extends Application {
     
     //---------------------------------------------------------------------
     
-    private static final int  // Constants to represent possible contents 
-             EMPTY = 0,       //     of squares on the board.  The constants
-             BLACK = 1,       //     BLACK and WHITE are also used to
-             WHITE = 2;       //     represent the current player.
+	static final int EMPTY = 0;//Empty
+	static final int WHITE = 1;//white player
+	static final int BLACK = 2;//black player
     
     private GoMokuBoard board; // A canvas on which a checker board is drawn,
                          // defined by a static nested subclass.  Much of
